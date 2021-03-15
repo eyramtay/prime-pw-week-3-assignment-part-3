@@ -30,6 +30,7 @@ console.log('5. Adding 25 to supplyChanges.', supplyChanges.push(25), supplyChan
 //    - if the value is negative, format the log as 'Part count -x.'
 
 for (let i = 0; i < supplyChanges.length; i++) {
+    console.log('6. Showing supplyChanges...', supplyChanges[i]);
   if (supplyChanges[i] > 0) {
     console.log('Added x parts');
   } else if (supplyChanges[i] === 0) {
@@ -37,8 +38,15 @@ for (let i = 0; i < supplyChanges.length; i++) {
   } else {
     console.log('Part count -x');
   }
-console.log('6. Showing supplyChanges...', supplyChanges[i]);
+// console.log('6. Showing supplyChanges...', supplyChanges[i]);
 }
+
+/* for (let i = 0; i < supplyChanges.length; i++) {
+  const supplies = supplyChanges[i];
+  for (let j = 0; j < supplies.length; j++) {
+    console.log(supplies[j])
+  }
+} */
 
 // STRETCH GOALS
 console.log('---  Stretch Goals  ---');
