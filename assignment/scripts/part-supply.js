@@ -34,12 +34,13 @@ for (let i = 0; i < supplyChanges.length; i++) {
   if (supplyChanges[i] > 0) {
     console.log('Added x parts');
   } else if (supplyChanges[i] === 0) {
-    console.log('N/A');
+    // console.log('N/A');
   } else {
     console.log('Part count -x');
   }
 // console.log('6. Showing supplyChanges...', supplyChanges[i]);
 }
+let name = 'Eyram';
 
 /* for (let i = 0; i < supplyChanges.length; i++) {
   const supplies = supplyChanges[i];
