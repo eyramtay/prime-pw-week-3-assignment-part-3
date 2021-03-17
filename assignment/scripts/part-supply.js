@@ -32,15 +32,15 @@ console.log('5. Adding 25 to supplyChanges.', supplyChanges.push(25), supplyChan
 for (let i = 0; i < supplyChanges.length; i++) {
     console.log('6. Showing supplyChanges...', supplyChanges[i]);
   if (supplyChanges[i] > 0) {
-    console.log('Added x parts');
+    console.log('Added ' + supplyChanges[i] +  ' parts');
   } else if (supplyChanges[i] === 0) {
     // console.log('N/A');
   } else {
-    console.log('Part count -x');
+    console.log('Part count', supplyChanges[i]);
   }
 // console.log('6. Showing supplyChanges...', supplyChanges[i]);
 }
-let name = 'Eyram';
+
 
 /* for (let i = 0; i < supplyChanges.length; i++) {
   const supplies = supplyChanges[i];
